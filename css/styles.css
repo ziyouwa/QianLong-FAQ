@@ -57,3 +57,41 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
+.text {
+  text-align: center;
+}
+
+.serverlogo {
+  font-size: 100px;
+  left: 100px;
+}
+
+.shuoming {
+  font-size: 13px;
+}
+
+.fudong {
+  position: absolute;
+}
+
+p {
+  margin: 3%;
+}
+
+.serverlogo50 {
+  font-size: 60px;
+  top: 40px;
+  left: 10px;
+}
+
+.serverlogo51 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.serverlogo52 {
+  font-size: 60px;
+  top: 40px;
+  right:10px;
+}
