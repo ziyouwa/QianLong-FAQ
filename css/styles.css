@@ -61,6 +61,13 @@ pre code {
 .text {
   text-align: center;
 }
+.textright{
+  left: 700px;
+  top: 80px;
+}
+.red {
+  color: red;
+}
 
 .serverlogo {
   font-size: 90px;
