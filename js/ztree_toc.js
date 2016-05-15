@@ -260,7 +260,7 @@ function factor(opts ,count,current) {
 		/*
 		 * ztree的位置，默认是在上部
 		 */
-		is_posion_top: true,
+		is_posion_top: false,
 		/*
 		 * 默认是否显示header编号
 		 */
@@ -307,7 +307,7 @@ function factor(opts ,count,current) {
 						console.log('click root table of content');
 					}
 					if($.fn.ztree_toc.defaults.is_highlight_selected_line == true) {
-						$('#' + treeNode.id).css('color' ,'red').fadeOut("slow" ,function() {
+						$('#' + treeNode.id).css('color' ,'blue').fadeOut("slow" ,function() {
 						    // Animation complete.
 							$(this).show().css('color','black');
 						});
