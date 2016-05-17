@@ -260,7 +260,7 @@ function factor(opts ,count,current) {
 		/*
 		 * ztree的位置，默认是在上部
 		 */
-		is_posion_top: false,
+		is_posion_top: true,
 		/*
 		 * 默认是否显示header编号
 		 */
