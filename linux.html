@@ -8,188 +8,190 @@
 	<link rel="icon" sizes="192x192" href="image/logo.png">
 	<link rel="stylesheet" href="css/material.indigo-pink.min.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/zTreeStyle.css" type="text/css">
-	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
-	<script type="text/javascript" src="js/jquery.ztree.core-3.5.js"></script>
-	<script type="text/javascript" src="./js/ztree_toc.js"></script>
-	<script type="text/javascript" >
-	<!--
-	$(document).ready(function(){
-		$('#tree').ztree_toc({
-			is_auto_number:true
-		});
-	});
-	//-->
-	</script>
-	<title>linux 常见问题</title>
+	<title>钱龙Linux安装教程</title>
 </head>
 <body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 	  <header class="mdl-layout__header">
+	  	<div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><i class="fa fa-bars" aria-hidden="true"></i>
+	  	</div>
 	    <div class="mdl-layout__header-row">
 	      <span class="mdl-layout-title">Qianlong FAQ</span>
 	      <div class="mdl-layout-spacer"></div>
 	      	<nav class="mdl-navigation mdl-layout--large-screen-only">
 		        <a class="mdl-navigation__link" href="index.html">首页</a>
-		        <a class="mdl-navigation__link" href="linux.html">Linux</a>
+		        <a class="mdl-navigation__link" href="">Linux</a>
 		        <a class="mdl-navigation__link" href="">Novell</a>
 		        <a class="mdl-navigation__link" href="">其他</a>
       		</nav>
 	    </div>
 	  </header>
-	  <main class="mdl-layout__content">
-	    <div>
-	    	<TABLE border=0  align=left >
-				<TR>
-					<TD width=260px align=left style="BORDER-RIGHT: #999999 1px dashed">
-						<ul id="tree" class="ztree">	
-						</ul>
-					</TD>
-					<TD width=770px align=left valign=top>
-						
-						<div class='first_part'>
-							<h1>移动web app</h1>
-							12313123123123
-							<h3>基本语法</h3>
-							<h4>dsds</h4>
-							<h3>高级用法</h3>
-							<h4>dsds</h4>
-						</div>
-							<h1>第二部分</h1>
+	  	<div class="mdl-layout__drawer">
+		    <span class="mdl-layout-title">钱龙常见问题</span>
+		    <nav class="mdl-navigation">
+		      <a class="mdl-navigation__link" href="index.html">首页</a>
+		      <a class="mdl-navigation__link" href="">linux</a>
+		      <a class="mdl-navigation__link" href="">Novell</a>
+		      <a class="mdl-navigation__link" href="">其他</a>
+		      </br>
+			  <!--<a class="dashang">　　　<img src="http://it-andy-hou.github.io/QianLong-FAQ/image/dz.png"  alt="erweima" width="60%" /></a>
+			  <i>扫描二维码,在手机上打开,或者分享</i>-->
+		    </nav>
+	 	</div>
+	
+	 	<div class="mdl-layout__container">
+			<div class="demo-blog mdl-js-layout has-drawer is-upgraded" data-upgraded=",MaterialLayout">
+	  			<main class="mdl-layout__content">
+		  			<h3 class="text">钱龙Linux安装教程</h3>
+		  			<h5>安装前的准备</h5>
+		  			<div class="demo-blog__posts mdl-grid ">
+			    		<div class="mdl-shadow--2dp mdl-card on-the-road-again mdl-cell mdl-cell--2-col">	    		
+							<a class="text">主/备服务器</a></br><i class="fa fa-server serverlogo text" aria-hidden="true" ></i>
+							<p class=" shuoming"><b>操作系统：</b>乾隆公司提供 Redhat</br>
+							<b>CPU处理器：</b>P4 Xeon 2.4G*2 <b>内存:</b> 4G及以上</br>
+							<b>硬盘空间: </b> 50G可用空间、raid5阵列 阵列卡缓存512M（含）</br>
+							<b>推荐型号: </b>IBM X3650 M5系列、HP DL380 G9系列、DELL R730系列</br>
+							<b>安装方式：</b>光盘安装/USB安装</br>
+							<b>服务器系统兼容查询: </b><a class=" shuoming" href="https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server" target="_blank">查询地址</a>
+							</p>
+				    	</div>
+				    	<div class="mdl-shadow--2dp mdl-card on-the-road-again mdl-cell mdl-cell--2-col">
+				    		<a class="text">数据中心/点对点服务器</a></br><i class="fa fa-database serverlogo text" aria-hidden="true"></i></br>
+				    		<p class=" shuoming"><b>操作系统：</b>WINDOWS 2003 SERVER/XP</br>
+							<b>CPU处理器：</b>INTEL 或AMD处理器2.0GHz以上<b>内存:</b> 2GB及以上</br>
+							<b>硬盘空间: </b> 10G可用空间</br>
+							<b>推荐型号: </b>双网卡</br>
 							
-							<h3>hello world</h3>
-							 
-							<h1>第三部分</h1>
+				    	</div>
 
-							 <p>这次培训的目标是让大家了解移动web开发流程以及技术点，以便大家在以后工作中应用这些技术能够得心应手，有的放矢。</p>
+				    	<div class="mdl-shadow--2dp mdl-card on-the-road-again mdl-cell mdl-cell--2-col">
+				    		<a class="text">钱龙网关</a></br><i class="fa fa-desktop serverlogo text" aria-hidden="true"></i></br>
+				    		<p class=" shuoming"><b>操作系统：</b>WINDOWS 2003 SERVER/XP</br>
+							<b>CPU处理器：</b>INTEL 或AMD处理器2.0GHz以上<b>内存:</b> 2GB及以上</br>
+							<b>硬盘空间: </b> 10G可用空间</br>
+							<b>推荐型号: </b>双网卡</br>
+				    	</div>
 
-							 <h2>解释一下什么是移动web应用开发</h2>
+				    	<div class="mdl-shadow--2dp mdl-card on-the-road-again mdl-cell mdl-cell--2-col">
+				    		<a class="text">USB代理线/代理PC</a></br><i class="fa fa-desktop serverlogo50 fudong " aria-hidden="true"></i>
+				    		<i class="fa fa-usb serverlogo51 " aria-hidden="true"></i></br>
+				    		<i class="fa fa-desktop serverlogo52 fudong " aria-hidden="true"></i>
+				    		<p class=" shuoming"><b>操作系统：</b>WINDOWS 2003 SERVER/XP</br>
+							<b>CPU处理器：</b>INTEL 或AMD处理器2.0GHz以上<b>内存:</b> 2GB及以上</br>
+							<b>硬盘空间: </b> 10G可用空间</br>
+							<b>推荐型号: </b>双网卡</br>
+				    	</div>
 
-							 <h2>为什么要用Hybird（混搭）呢？</h2>
+				    	<div class="mdl-shadow--2dp mdl-card on-the-road-again mdl-cell mdl-cell--2-col">
+				    		<a class="text">无盘站</a></br><i class="fa fa-desktop serverlogo text" aria-hidden="true"></i></br>
+				    		<p class=" shuoming">
+							<b>CPU处理器：</b>INTEL 或AMD处理器1.0GHz以上</br>
+							<b>内存:</b> 512MB及以上 <b>VGA彩显</b> </br>
+							<b>推荐型号: </b>8139型号的PXE网卡</br>
+				    	</div>
 
-							 <p>移动开发分类：原生和hybird，为什么我们要用hybird呢？</p>
+				    	<div class="mdl-shadow--2dp mdl-card on-the-road-again mdl-cell mdl-cell--2-col">
+				    		<a class="text">授权文件</a></br><i class="fa fa-file serverlogo text" aria-hidden="true"></i></br>
+				    		<p class=" shuoming">
+							<b>授权文件：</b>ql4、ql6文件</br>
+				    	</div>
+						
+						<!--<div class="mdl-shadow--2dp mdl-card on-the-road-again mdl-cell mdl-cell--6-col">
+							<p class="text">
+								<img src="http://7xlgx2.com1.z0.glb.clouddn.com/tuoputu.png"  alt="拓扑图" width="80%" />
+							</p>
+				    		
+				    	</div>-->
+					</div>
+					<h5> 系统安装 (光盘安装/USB安装)</h5>
+					<a class="text"><h5> 光盘安装 </h5></a>
+					<div class="demo-blog__posts mdl-grid ">
+						<div class=" mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+				    		<div id="linux1">
+					          <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+					          <script type="text/javascript">
+					              var flashvars={
+					                  f:'http://7xlgx2.com1.z0.glb.clouddn.com/qianlong-linux-setup1.mp4',
+					                  c:0,
+					                  h:4
+					              };
+					              var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+					              var video=['http://7xlgx2.com1.z0.glb.clouddn.com/qianlong-linux-setup1.mp4'];
+					              CKobject.embed('/ckplayer/ckplayer.swf','linux1','ckplayer_a1','630','360',true,flashvars,video,params);
+					          </script>
+					        </div>
+					        <div class="textright fudong">
+					        	<a class="red"><b>注意:</b>不推荐使用旧服务器或者不满足配置的服务器安装</a></br><b>关于服务器引导:</b> 如果不会可以咨询硬件供应商或者百度</br>
+					        	<b>视频下载地址：</b><a href="http://7xlgx2.com1.z0.glb.clouddn.com/qianlong-linux-setup1.mp4" target="_blank">视频地址</a></br>
+					        	<b>ssh工具</b><a href="https://winscp.net/eng/download.php" target="_blank">Winscp、PuTTY 下载地址</a>
+					        <div>
+				    	</div>
+				    </div>
+				    </div>
+				   	</br>
 
-							 <ul>
-							 <li>移动设备越来越强悍，网速越来越快，在移动设备上web app已经可以非常流畅</li>
-							 <li>跨平台，通过cordova可以开发一次，在ios和android上都可以使用</li>
-							 <li>开发效率高，易于掌握</li>
-							 <li>如果你想来一个wap类似的站点，起个服务器就可以了</li>
-							 </ul>
+					<h5> 沪深5档配置</h5>					
+						<div class="  mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+				    		<div id="linux2">
+					          <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+					          <script type="text/javascript">
+					              var flashvars={
+					                  f:'http://7xlgx2.com1.z0.glb.clouddn.com/5dang2.mp4',
+					                  c:0,
+					                  h:4
+					              };
+					              var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+					              var video=['http://7xlgx2.com1.z0.glb.clouddn.com/5dang2.mp4'];
+					              CKobject.embed('/ckplayer/ckplayer.swf','linux2','ckplayer_a1','630','360',true,flashvars,video,params);
+					          </script>
+					        </div>
+					        <div class="textright fudong">
+					        	<a class="red"></a>
+					        	<b>视频下载地址：</b><a href="http://7xlgx2.com1.z0.glb.clouddn.com/5dang2.mp4" target="_blank">视频地址</a></br>
+					        	<b>网际服务管理器:</b><a href="http://www.qianlong.com.cn/soft/download_wl.asp">下载地址</a>
+					        <div>
+				    	</div>
+				    </div>
+				    </div>
+				    </br>
+				 
+					<h5> 沪深10档、期货、股转、港股通配置</h5>					
+						<div class="  mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+				    		<div id="linux3">
+					          <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+					          <script type="text/javascript">
+					              var flashvars={
+					                  f:'http://7xlgx2.com1.z0.glb.clouddn.com/10dang.mp4',
+					                  c:0,
+					                  h:4
+					              };
+					              var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+					              var video=['http://7xlgx2.com1.z0.glb.clouddn.com/10dang.mp4'];
+					              CKobject.embed('/ckplayer/ckplayer.swf','linux3','ckplayer_a1','630','360',true,flashvars,video,params);
+					          </script>
+					        </div>
+					        <div class="textright fudong">
+					        	<a class="red"></a>
+					        	<b>视频下载地址：</b><a href="http://7xlgx2.com1.z0.glb.clouddn.com/10dang.mp4" target="_blank">视频地址</a></br>
+					        <div>
+				    	</div>
+				    </div>
+				    </div>
+				    </br>
 
-							 <h2>整体架构</h2> 
 
-							 <h2>Webview 和 native代码如何交互</h2>
-			 
 
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-							 <h2>整体架构</h2> 
-
-							 <h2>Webview 和 native代码如何交互</h2>
-			 
-
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-							 <h2>整体架构</h2> 
-
-							 <h2>Webview 和 native代码如何交互</h2>
-			 
-
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-							 <h2>整体架构</h2> 
-
-							 <h2>Webview 和 native代码如何交互</h2>
-			 
-
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-
-							 <ul>
-							 <li>ui有点不一样？（囿于屏幕尺寸和原生app影响）</li>
-							 <li>viewport？</li>
-							 <li>真的不用兼容浏览器么？</li>
-							 <li>适配屏幕（？响应式布局）</li>
-							 <li>移动端特有事件（如touch，手势等）咋整？</li>
-							 <li>更多h5特性？（local storage，css3动画，canvas等？）</li>
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-							 <h2>整体架构</h2> 
-
-							 <h2>Webview 和 native代码如何交互</h2>
-			 
-
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-
-							 <ul>
-							 <li>ui有点不一样？（囿于屏幕尺寸和原生app影响）</li>
-							 <li>viewport？</li>
-							 <li>真的不用兼容浏览器么？</li>
-							 <li>适配屏幕（？响应式布局）</li>
-							 <li>移动端特有事件（如touch，手势等）咋整？</li>
-							 <li>更多h5特性？（local storage，css3动画，canvas等？）</li>
-							 <h2>移动端特点</h2>
-
-							 <ul>
-							 <li>ui有点不一样？（囿于屏幕尺寸和原生app影响）</li>
-							 <li>viewport？</li>
-							 <li>真的不用兼容浏览器么？</li>
-							 <li>适配屏幕（？响应式布局）</li>
-							 <li>移动端特有事件（如touch，手势等）咋整？</li>
-							 <li>更多h5特性？（local storage，css3动画，canvas等？）</li>
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-							 <h2>整体架构</h2> 
-
-							 <h2>Webview 和 native代码如何交互</h2>
-			 
-
-							 <h2>三部分的关系</h2> 
-
-							 <h2>你一定要清楚【技术栈】</h2>
-
-							 <h2>移动端特点</h2>
-
-							 <ul>
-							 <li>ui有点不一样？（囿于屏幕尺寸和原生app影响）</li>
-							 <li>viewport？</li>
-							 <li>真的不用兼容浏览器么？</li>
-							 <li>适配屏幕（？响应式布局）</li>
-							 <li>移动端特有事件（如touch，手势等）咋整？</li>
-							 <li>更多h5特性？（local storage，css3动画，canvas等？）</li>
-							 </ul>
-			 
-							 	 
-					</TD>
-				</TR>
-			</TABLE>
-
-	    </div>
-	  </main>
-	</div>
-
+				</main>  	
+					<footer class="mdl-mini-footer">
+						<div class="mdl-mini-footer__left-section">
+							<div class="mdl-logo">© 2016 Qianlong Inc. All rights reserved </div>
+							<div class="mdl-logo">Andyhou <i class="fa fa-github"> </i><a  style="color:#fff;" href="https://github.com/it-andy-hou/QianLong-FAQ/" target="_blank">页面项目地址</a></div>
+						</div>
+					</footer>
+				
+			</div>
+		</div>
+	</div>	
 	<script defer src="./js/material.min.js"></script>
 </body>
 </html>
