@@ -1,9 +1,20 @@
-## 钱龙系统常见问题解答
+# 钱龙系统常见问题解答
 <hr>
+[](setup.md)
 
-## 安装教程
-<a herf="linuxsetup.md">linux 安装教程</a>
-Novell 安装教程
+
+[安装教程]()
+
+  * # SubMenu Heading 1
+  * [Novell](novell.md)
+  * [linux ](linux.md)
+  - - - -
+  * # SubMenu Heading 2
+  * [SubMenu Item 3](subitem3.md)
+  - - - -
+
+
+Novell 
 
 ## 配置教程
 ## 延期教程
