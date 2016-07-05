@@ -11,12 +11,14 @@
 |**服务器系统兼容查询**: [查询地址](https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server) ||||||
 
 ### 系统安装 (光盘安装/USB安装)
-**光盘安装(Redhat版本)**
 
-<center><video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/Linux(redhat).jpg">
+| 光盘安装(Redhat版本)       | 备注         | 
+| ------------- |:-------------:|
+| <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/Linux(redhat).jpg">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/qianlong-linux-setup1.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
-</video></center>
+</video> | 注意:不推荐使用旧服务器或者不满足配置的服务器安装 | 
+
 
 **U盘安装(Centos版本)**
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/linux (Centos).jpg">
