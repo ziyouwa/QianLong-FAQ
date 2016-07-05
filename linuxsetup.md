@@ -12,7 +12,7 @@
 
 ### 系统安装 (光盘安装/USB安装)
 
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+<video id="video"  width="630" height="360" controls="controls" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/qianlong-linux-setup1.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
