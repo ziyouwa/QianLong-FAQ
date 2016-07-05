@@ -8,9 +8,9 @@
  
 [配置教程]()
 
-  * [Novell 配置教程](novellsetup.md)
-  * [Linux  配置教程](linuxsetup.md)
-  * [网 际  配置教程](windwossetup.md)
+  * [Novell 配置教程](novellconfig.md)
+  * [Linux  配置教程](linuxconfig.md)
+  * [网 际  配置教程](windwosconfig.md)
 
 [延期教程](update.md)
 [补数据](sysdata.md)
