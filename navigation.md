@@ -19,3 +19,4 @@
 [资讯问题](xlinfo.md)
 [错误代码](error.md)
 [其他问题](other.md)
+[bug反馈](bug.md)
