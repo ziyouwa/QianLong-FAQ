@@ -2,6 +2,9 @@
 <hr>
 
 ## 安装教程
+<a herf="linux.md">linux 安装教程</a>
+Novell 安装教程
+
 ## 配置教程
 ## 延期教程
 ## 补数据
