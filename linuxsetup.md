@@ -11,25 +11,25 @@
 |**服务器系统兼容查询**: [查询地址](https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server) ||||||
 
 ### 系统安装 (光盘安装/USB安装)
-光盘安装(Redhat版本)
+> **光盘安装(Redhat版本)**
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/Linux(redhat).jpg">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/qianlong-linux-setup1.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
 
-U盘安装(Centos版本)
+> **U盘安装(Centos版本)**
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/linux (Centos).jpg">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/usblinux2.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
 
-沪深5档配置
+> **沪深5档配置**
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/5dang.jpg">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/5dang2.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
 
-沪深10档、期货、股转、港股通配置
+> **沪深10档、期货、股转、港股通配置**
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/other10.jpg">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/10dang.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
