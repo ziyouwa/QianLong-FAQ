@@ -8,7 +8,7 @@
 |**硬盘空间**: 50G可用空间、raid5阵列 阵列卡缓存512M（含）|**硬盘空间**: 10G可用空间|**硬盘空间**: 10G可用空间|**硬盘空间**: 10G可用空间|**内存**: 512MB及以上 VGA彩显 ||
 |**推荐型号**: IBM X3650 M5系列、HP DL380 G9系列、DELL R730系列|**推荐型号**: 双网卡|**推荐型号**: 双网卡|**推荐型号**: 双网卡|**推荐型号**: 8139型号的PXE网卡||
 |**安装方式**：光盘安装/USB安装||||||
-|**服务器系统兼容查询**: [查询地址](https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server) ||||||
+|**服务器系统兼容查询**: [查询地址](https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server) |||||　|
 
 ### 系统&程序下载
 
@@ -22,7 +22,7 @@
 |Diskless&APP| 下载地址|MD5 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
 |qianlong_diskless_iso_2016_04_27.iso|[Go to download](http://share.weiyun.com/48255e336153e4555686a2e4b61eee36)|0F8B9AEB8E851847203BA80EF95814B2|168 MB (175,788,032 bytes)||
-|qianlong_app_iso_2016_04_27.iso|[Go to download](http://share.weiyun.com/6b5b2a5a9fbe920cdf3086c7ad7579eb)|5931011030507BD9CF2CD56DCC5B810F|19.5 MB (20,453,376 bytes)|
+|qianlong_app_iso_2016_04_27.iso|[Go to download](http://share.weiyun.com/6b5b2a5a9fbe920cdf3086c7ad7579eb)|5931011030507BD9CF2CD56DCC5B810F|19.5 MB (20,453,376 bytes)|　|
 
 
 
