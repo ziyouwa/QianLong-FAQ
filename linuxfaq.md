@@ -1,3 +1,5 @@
+# 钱龙Linux FAQ 集 
+
 ### 1.盘中各种数据画线异常
 中午或者收盘 替换realtime文件或者重新初始化(重新初始化会拉直线)
 <code>opt/qianlong/sysdata/realtime/shase(sznse)/</code>
