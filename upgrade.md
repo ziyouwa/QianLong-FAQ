@@ -61,13 +61,13 @@
 
 密码文件2：ml＊＊＊＊.ql6
 
-1. 将两个授权文件重命名为 mldata.ql4 mldata.ql6 (区分大小写，要小写)
+1、 将两个授权文件重命名为 mldata.ql4 mldata.ql6 (区分大小写，要小写)
 
-2. 将两个改名后的文件放到opt/qianlong/right/目录下
+2、 将两个改名后的文件放到opt/qianlong/right/目录下
 
 然后执行赋权命令
 ```
 chmod -R 777 /opt/qianlong
 chown -R qianlong:qianlong /opt/qianlong
 ```
-3.  验证延期是否成功 重启转码机后在系统状态里的转码状态查看日期是否延长。
+3、验证延期是否成功 重启转码机后在系统状态里的转码状态查看日期是否延长。
