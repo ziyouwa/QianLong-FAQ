@@ -49,6 +49,8 @@
 
 ### 系统安装 (光盘安装/USB安装)
 
+> 如需下载安装视频，右击视频另存为即可。
+
 <cten>**光盘安装(Redhat版本)**
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/Linux(redhat).jpg">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/qianlong-linux-setup1.mp4" type="video/mp4">
