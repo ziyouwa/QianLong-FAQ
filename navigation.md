@@ -1,18 +1,18 @@
-# QLFAQ 
+# QLFAQ
 
 [安装教程]()
 
   * [Novell 安装教程](novellsetup.md)
   * [Linux  安装教程](linuxsetup.md)
   * [网 际  安装教程](windwossetup.md)
- 
+
 [维护教程]()
 
   * [Novell FAQ](novellfaq.md)
   * [Linux  FAQ](linuxfaq.md)
   * [网 际  FAQ](windwosfaq.md)
 
-[延期教程](update.md)
+[延期教程](upgrade.md)
 [补数据](sysdata.md)
 [行情问题](hq.md)
 [委托问题](wt.md)
