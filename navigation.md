@@ -6,11 +6,11 @@
   * [Linux  安装教程](linuxsetup.md)
   * [网 际  安装教程](windwossetup.md)
  
-[配置教程]()
+[维护教程]()
 
-  * [Novell 配置教程](novellconfig.md)
-  * [Linux  配置教程](linuxconfig.md)
-  * [网 际  配置教程](windwosconfig.md)
+  * [Novell FAQ](novellfaq.md)
+  * [Linux  FAQ](linuxfaq.md)
+  * [网 际  FAQ](windwosfaq.md)
 
 [延期教程](update.md)
 [补数据](sysdata.md)
