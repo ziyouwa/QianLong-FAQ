@@ -67,6 +67,159 @@ ln –s /tmp/data data
 
 ## 10.大盘均为红色
 ![](image/dph.png)
+某一时刻，买卖力道，买的力道大于卖的力道，即显示红色。
+
+## 11.Linux 看到不到沪港通 4X服务状态 显示如下 无监控数据列表
+删除/opt/qianlong/sysdata/history/neeq/hisexdata.szn 
+使用文件大小计算记录数时，超过了数据保存范围（64K）
+![](image/22.png)
+
+## 12.Linux 港股通看不到F10龙讯
+拷贝 \qianlong\service\hqsystem\hk2sh\libtran2ndhk2sh.ini 
+
+然后覆盖到 \qianlong\service\hqsystem\4xinfo\libtran2ndhk2sh.ini 
+
+然后重启4X服务平台和服务平台
+
+## 13.Novell和Linux 内外盘不同
+不同软件的个股内外盘数量不一致 各软件厂商的计算方法和转码机的行情延迟时间均不同造成的。 总量是一致的，内外盘不一致属正常。 F1成交明细的现量是由前一笔总量与后一笔总量相减得到的。有切片时间差存在。 转码机扫库是按每次扫多少个股票，这个股票数量是由转码机程序l2dcdset.exe中设置的扫库速度决定的。比如150，那就是说，转码机每次读扫150个股票，每次扫库间隔为0.5毫秒。 影响切片时间差的因素有：机器性能、网络环境、网卡效率、磁盘读写速度、转码机转码效率、扫库起始代码、行情库刷新落地时间等。只要其中有一个差异就会造成切片差异，进而造成F1成交明细和内外盘差异。 内盘：就是股票在买入价成交，成交价为申买价，说明抛盘比较踊跃 外盘：就是股票在卖出价成交，成交价为申卖价，说明买盘比较积极 F1成交明细卖出价成交，红色量，算作外盘。 F1成交明细买入价成交，绿色量，算作内盘。 F1成交明细价格，白色中间量，内外盘各加50%。
+
+## 14.Linux 信息公告以及日志清理
+信息公告
+
+```\qianlong\sysdata\remote\msg ```
+
+```\qianlong\sysdata\vsat\info ```
+
+日志文件 \qianlong\logs 
+
+日志文件保留天数修改路径
+
+```\qianlong\service\market\cfg\l2dcd.ini```
+
+公告文件保留天数修改路径
+
+```\qianlong\service\servicemanager.ini```
+
+## 15.Linux 跑马灯设置
+
+```qianlong\sysdata\news\pmd1.txt``` 可手动设置 
+
+```qianlong\sysdata\mlinfo\pmd2.txt```龙讯推送
+
+## 16.初始化数据处理逻辑[1]
+初始化数据处理逻辑[1] 初始化数据处理逻辑[2] 没到初始化时间，数据没到。
+
+## 17.Linux 无盘站颜色 反色 绿色
+![](image/3.jpg)
+```/tftpboot/pxelinux.cfg/default``` 删掉 ```vga=0x301```
+
+## 18.Linux 7.0 跨子网段
+修改dhcp.conf
+```
+subnet 192.168.2.0  netmask 255.255.254.0 {
+
+            　　　　　range 192.168.2.10 192.168.2.254;
+
+            　　　　　range 192.168.3.2 192.168.3.254;
+
+     default-lease-time 1600;
+
+     max-lease-time 3200;
+
+     next-server 192.168.2.154;
+
+     filename "pxelinux.0";
+```
+
+## 19.linux委托 港股通每手股数
+是港股通初始化的问题，保证数据中心港股通源驱动时间早于 linux上设置的开盘的时间
+如果是盘中 要恢复显示的话，就重启4X服务平台 如果还不显示 就是要 删掉实时文件， 重新启动\qianlong\sysdata\realtime\hk2sh
+![](image/30.png)
+![](image/31.png)
+![](image/32.png)
+
+## 20.服务管理器端口占用
+![](image/39.png)
+服务管理器改端口号6003 重启
+
+## 21. 品种名称转换失败
+商品期货没升级 关于郑商所“动力煤”期货合约代码变更升级公告
+![](image/42.png)
+
+## 22.客户端启动连接服务器认证失败
+服务平台启动问题
+
+## 23.linux提示加密狗检测失败
+![](image/5.jpg)
+linux转码机到期日
+
+## 24.linux 客户端列表 文件列表
+```/var/lib/dhcpd/``` Linux 分配IP地址 网卡地址
+
+## 25. linux web登录admin 登陆不上
+权限问题 给html赋权 
+
+```
+cd /var/www 
+
+chmod -R 777 html
+```
+
+也有可能是linux服务器空间占满**redhat6.2存在问题**
+
+以下步骤必须用root 用户操作
+
+```
+umount /home
+
+删掉/etc/fstab里面/home那行
+
+lvremove /dev/mapper/VolGroup-lv_home
+
+lvexted /dev/mapper/VolGrop-root /Dev/sda2
+
+resize2fs /dev/mapper/VolGroup-lv_root
+
+等到命令#跳出来 在执行重新，最后一步可能要几分钟。
+
+reboot
+
+```
+
+## 26.
+
+## 27.
+
+## 28.
+
+## 29.
+
+## 30.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
