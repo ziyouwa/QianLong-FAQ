@@ -259,7 +259,7 @@ killall l2dcd     //杀掉进程
 
 /tftpboot/pxelinux.cfg/default中有acpi=off
 
-![](image/47.jpg)
+![](image/47.png)
 
 
 
