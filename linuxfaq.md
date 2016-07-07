@@ -212,12 +212,78 @@ reboot
 
 ```
 
-## 26.
+## 26.linux web升级版本号不刷新
+/var/lib 目录重新覆盖一下
 
-## 27.
+![](image/14.jpg)
 
-## 28.
+## 27.linux 4X或者转码机 按钮按不下去
 
-## 29.
+1.缺少 hktime.ini 文件
 
-## 30.
+/opt/qianlong/service/market/CFG/hktime.ini
+
+2.root权限执行了转码机和其他程序
+```
+top   //查看命令
+./l2dcd root      //权限运行
+killall l2dcd     //杀掉进程
+```
+
+## 28.linux 础MKTDT行情异常,上海市场行情被中止!!
+[上海库]打开MKTDT文件(/opt/qianlong/sysdata/remote/mkdtd00.txt)错误,错误码(0)
+
+[上海库]打开MKTDT文件(/opt/qianlong/sysdata/remote/mkdtd00.txt)错误,代码(-2147483646)
+
+[上海市场]初始化基础MKTDT行情异常,上海市场行情被中止!!
+
+[上海]市场启动MKTDT行情驱动失败
+
+[上海市场]启动行情驱动发生错误
+
+检测行情接收点对点 行情库是否传入Linux
+
+## 29.点对点时间0：00 问题
+
+![](image/8.jpg)
+
+修改系统时间为24小时制
+
+## 30.linux无盘站启动nfs 错误
+
+![](image/11.jpg)
+
+检查/tftpboot/pxelinux.cfg/default 里的IP地址是否有问题
+
+## 31. 客户端选择系统工具-关闭计算机-关闭计算机后挂起
+
+/tftpboot/pxelinux.cfg/default中有acpi=off
+
+![](image/47.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
