@@ -1,6 +1,9 @@
-## 钱龙Linux的安装教程
+# 钱龙Linux的安装教程
 
-### 环境准备
+## 拓扑图
+![](/image/linux3.png)
+
+## 安装环境准备
 | 主/备服务器 | 数据中心/点对点服务器 |钱龙网关 |USB代理线/代理PC|无盘站|授权文件|
 | ------ |:----------:|:----------:|:----------:|:----------:|:----------:|
 | **操作系统** ：乾隆公司提供 Redhat/Cetos| **操作系统**：WINDOWS 2003 SERVER/XP|**操作系统**：WINDOWS 2003 SERVER/XP|**操作系统**：WINDOWS 2003 SERVER/XP|/|授权文件：ql4、ql6文件|
@@ -10,7 +13,7 @@
 |**安装方式**：光盘安装/USB安装||||||
 |**服务器系统兼容查询**: [查询地址](https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server) |||||　|
 
-### 系统&程序下载(根据服务器兼容选择下载)
+## 系统&程序下载
 
 | 系统版本|文件名| 下载地址|MD5 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|:----------:|
@@ -39,7 +42,7 @@
 |子网掩码计算器|[Go to download](http://share.weiyun.com/f17524a33950e8b01b5c2cdaff775edb)|营业部无盘站超过一个子网计算时用|
 |浏览器||推荐 谷歌、火狐|
 
-### 历史数据下载 
+## 历史数据下载 
 > 信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)  **首页>技术支持>数据下载** 
 
 |历史咨询| 下载地址|备注|
@@ -47,7 +50,7 @@
 |LINUX版龙讯C系列F10完整历史数据|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
 |龙讯权息weight历史数据包|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
 
-### 系统安装 (光盘安装/USB安装)
+## 系统安装 (光盘安装/USB安装)
 
 > 如需下载安装视频，右击视频另存为即可。
 
