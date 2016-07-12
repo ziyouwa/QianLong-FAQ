@@ -134,9 +134,9 @@ qianlong\sysdata\mlinfo\pmd2.txt
 ```
 /tftpboot/pxelinux.cfg/default
 ```
-删掉
+修改
 ```
-vga=0x301
+vga=0x301   修改为vga=0x311
 ```
 
 ## 18.Linux 7.0 跨子网段
