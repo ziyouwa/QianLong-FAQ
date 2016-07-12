@@ -52,7 +52,7 @@
 
 ## 系统安装 (光盘安装/USB安装)
 
-> 如需下载安装视频，右击视频另存为即可。
+> 视频下载地址：[Go to download](http://share.weiyun.com/18551de8e5a243f29baab81c2873fa0a)
 
 <cten>**光盘安装(Redhat版本)**
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/Linux(redhat).jpg">
