@@ -56,6 +56,26 @@
 
  若是windows转码机重新开启转码机程序进行初始化，可正常开启且“基本信息”界面到期日已延长，则延期成功
 
+### Novell故障处理
+#### 1、使用UPGRADE做延期时第一步或第四步提示“T_Lock not found!”或者“upgrade t-lock error！”。多次更换无盘站无效。 
+
+A．将并口狗插入windows 有盘站上，并拷贝服务器映射盘符内的ml45\system\driver目录下的BKDRIVER.RAR至windows本机解压缩，执行解压后的setup.exe，完成并口狗驱动安装后，cmd命令行下进行upgrade延期。 
+
+#### 2、使用UPGRADE做延期时第二步报错“Target path error！”，提示无法找到文件路径。
+
+A.当前ML45的路径非F盘，重新UPGRADE并指定ML45路径，例如upgrade.exe /p=z:\ml45。
+
+B.ML45\SYSCFG目录下不存在MLDATA.QL4文件或文件已损坏，请先拷贝一个MLDATA.QL4文件至该目录下再做UPGRADE。
+
+#### 3、使用UPGRADE做延期时第三步报错“Copy ql4 file error！”，提示无法拷贝文件。
+
+A.upgrade目录下存在多个ml*.ql4文件，清除多余的ml*.ql4文件后重做upgrade。
+
+B.ML45\SYSCFG目录下的mldata.ql4文件被设定为只读，改为存档后重新upgrade。
+
+C.当前用户没有足够的操作权限，请重新赋权后做延期。
+
+
 ## linux 延期
 密码文件1：ml××××.ql4
 
