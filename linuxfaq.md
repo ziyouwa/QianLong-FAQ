@@ -28,9 +28,9 @@ hwclock -w 　　　　//写进主板
 
 rttool 下载、Novell拷贝、官网下载
 
-上海日线位置```opt/qianlong/sysdata/realtime/shase/day```
+上海日线位置```opt/qianlong/sysdata/history/shase/day```
 
-深圳日线位置```opt/qianlong/sysdata/realtime/sznse/day```
+深圳日线位置```opt/qianlong/sysdata/history/sznse/day```
 
 港股通日线位置```opt/qianlong/sysdata/history/hk2sh/kday```
 
