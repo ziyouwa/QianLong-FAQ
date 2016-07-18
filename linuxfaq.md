@@ -27,6 +27,7 @@ hwclock -w 　　　　//写进主板
 ## 4.补日K线方法
 
 rttool 下载、Novell拷贝、官网下载[下载地址](http://www.qianlong.com.cn/soft/download_data.aspx)
+详细教程参见[补数据](http://qlfaq.com/#!sysdata.md)
 
 上海日线位置```opt/qianlong/sysdata/history/shase/day```
 
