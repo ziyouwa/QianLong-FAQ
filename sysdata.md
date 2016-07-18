@@ -4,7 +4,7 @@
 
 ### 补分时（实时）数据
 
-单日（实时）分时
+当日（实时）分时
 
 上海日线位置opt/qianlong/sysdata/realtime/shase/除文件夹以外的其他文件
 

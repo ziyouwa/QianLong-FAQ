@@ -78,6 +78,7 @@ opt\qianlong\syscfg\commark.ini
 ## 11.Linux 看到不到沪港通 4X服务状态 显示如下 无监控数据列表
 删除/opt/qianlong/sysdata/history/neeq/hisexdata.szn
 使用文件大小计算记录数时，超过了数据保存范围（64K）
+也有可能是Linux股转升级，后端口冲突，重启服务器即可。
 ![](image/22.png)
 
 ## 12.Linux 港股通看不到F10龙讯
