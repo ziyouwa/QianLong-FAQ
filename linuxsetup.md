@@ -83,3 +83,19 @@
 </video>
 
 
+## 文档下载
+
+[钱龙场内Novell向linux改造解决方案.doc](http://share.weiyun.com/548dfada946b7792cf7c958b3ea8a5c2)
+
+[钱龙Linux（7.2版）网络版系统管理员手册.doc](http://share.weiyun.com/e8ead4a898f6eacc9dd611569443eb6d)
+
+### 服务器安装Linux说明文档
+
+[HP ProLiant DL380-Gen9 安装说明.doc](http://share.weiyun.com/02457f63d763e12db01e46a7191e8cb1)
+
+[hp388G9 raid5.doc](http://share.weiyun.com/200dccdb5309cf6f0dc9cfde75ff2f60)
+
+[Dell PowerEdge R730 安装说明.doc](http://share.weiyun.com/4791c8d290f09348146c392e006212b6)
+
+[Lenovo(IBM) System x3550 M5 安装说明.doc](http://share.weiyun.com/e48d9416d2ac43ed18eac414c603a10c)
+
