@@ -206,7 +206,7 @@ umount /home
 ```
 lvremove /dev/mapper/VolGroup-lv_home
 
-lvexted /dev/mapper/VolGrop-root /Dev/sda2
+lvextend /dev/mapper/VolGrop-root /Dev/sda2
 
 resize2fs /dev/mapper/VolGroup-lv_root
 
