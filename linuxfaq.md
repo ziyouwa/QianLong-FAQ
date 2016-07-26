@@ -200,8 +200,10 @@ chmod -R 777 html
 ```
 umount /home
 
-删掉/etc/fstab里面/home那行
-
+删掉/etc/fstab里面/home那行 如下图
+```
+![](image/20160726171402.png)
+```
 lvremove /dev/mapper/VolGroup-lv_home
 
 lvexted /dev/mapper/VolGrop-root /Dev/sda2
@@ -213,6 +215,8 @@ resize2fs /dev/mapper/VolGroup-lv_root
 reboot
 
 ```
+
+
 
 ## 26.linux web升级版本号不刷新
 /var/lib 目录重新覆盖一下
@@ -262,30 +266,3 @@ killall l2dcd     //杀掉进程
 /tftpboot/pxelinux.cfg/default中有acpi=off
 
 ![](image/47.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
