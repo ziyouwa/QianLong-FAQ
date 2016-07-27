@@ -198,17 +198,20 @@ chmod -R 777 html
 以下步骤必须用root 用户操作
 
 ```
-umount /home
+1. umount /home
 
-删掉/etc/fstab里面/home那行 如下图
+2. 删掉/etc/fstab里面/home那行 如下图
+cd /etc
+vi fstab
+打开fstab后，按a进入编辑模式，删除含home行，按esc退出编辑状态，按:wq保存退出文件。
 ```
 ![](image/20160726171402.png)
 ```
-lvremove /dev/mapper/VolGroup-lv_home
+3. lvremove /dev/mapper/VolGroup-lv_home
 
-lvextend /dev/mapper/VolGroup-root /Dev/sda2
+4. lvextend /dev/mapper/VolGroup-lv_root /dev/sda2
 
-resize2fs /dev/mapper/VolGroup-lv_root
+5. resize2fs /dev/mapper/VolGroup-lv_root
 
 等到命令#跳出来 在执行重新，最后一步可能要几分钟。
 
