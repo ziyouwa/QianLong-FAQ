@@ -42,11 +42,11 @@
 |子网掩码计算器|[Go to download](http://share.weiyun.com/f17524a33950e8b01b5c2cdaff775edb)|营业部无盘站超过一个子网计算时用|
 |浏览器||推荐 谷歌、火狐|
 
-## 历史数据下载 
+## 历史数据下载
 
 > 补历史数据详细教程参考 [补数据](sysdata.md)
 
-> 信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)  **首页>技术支持>数据下载** 
+> 信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)  **首页>技术支持>数据下载**
 
 |历史咨询| 下载地址|备注|
 | ------ |:----------:|:----------:|
@@ -61,7 +61,7 @@
 <video id="video"  width="630" height="360" controls="controls" preload="none" poster="/image/Linux(redhat).jpg">
       <source id="mp4" src="http://o77zzwbm6.bkt.clouddn.com/qianlong-linux-setup1.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
-</video> 
+</video>
 
 
 **U盘安装(Centos版本)**
@@ -98,4 +98,3 @@
 [Dell PowerEdge R730 安装说明.doc](http://share.weiyun.com/4791c8d290f09348146c392e006212b6)
 
 [Lenovo(IBM) System x3550 M5 安装说明.doc](http://share.weiyun.com/e48d9416d2ac43ed18eac414c603a10c)
-
