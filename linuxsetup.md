@@ -19,27 +19,27 @@
 | ------ |:----------:|:----------:|:----------:|:----------:|:----------:|
 |Linux(redhat) 6.2|rhel-6.2-i386-custom.iso| [微云](http://share.weiyun.com/0c7ec2e5abf74e843d97c18122bb5090)/[百度云](http://pan.baidu.com/s/1bPOgSu)|C182C551654E6DBEFE3AE42076E26D32|524 MB (549,732,352 bytes)|旧服务器光盘安装的系统版本
 |Linux（redhat）7.0|rhel-7.0-x86_64-custom.iso|[微云](http://share.weiyun.com/7982e6981ebb0379498d0f686a5106a0)/[百度云](http://pan.baidu.com/s/1kUWXvzL)|645553C297D1FB96A938AD05E02DB8DD|905 MB (949,043,200 bytes)|光盘安装系统镜像
-|Linux（centos）7.2|QL_LINUX7-x86_64-20160612.iso|[微云](http://share.weiyun.com/7e4a2a26e59c9b12f5bcfa6341ab47ea)/[百度云]()|1B6DB1FE46B352379893A6A123CDA61F|1,003 MB (1,051,963,392 bytes)|U盘安装镜像(内置4月27日app&diskless)
+|Linux（centos）7.2|QL_LINUX7-x86_64-20160612.iso|[微云](http://share.weiyun.com/7e4a2a26e59c9b12f5bcfa6341ab47ea)/[百度云](http://pan.baidu.com/s/1nv2Hujv)|1B6DB1FE46B352379893A6A123CDA61F|1,003 MB (1,051,963,392 bytes)|U盘安装镜像(内置4月27日app&diskless)
 
 ---------------
 |Diskless & APP| 下载地址|MD5 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
-|qianlong_diskless_iso_2016_04_27.iso|[微云](http://share.weiyun.com/48255e336153e4555686a2e4b61eee36)/[百度云]()|0F8B9AEB8E851847203BA80EF95814B2|168 MB (175,788,032 bytes)||
-|qianlong_app_iso_2016_04_27.iso|[微云](http://share.weiyun.com/6b5b2a5a9fbe920cdf3086c7ad7579eb)/[百度云]()|5931011030507BD9CF2CD56DCC5B810F|19.5 MB (20,453,376 bytes)|　|
+|qianlong_diskless_iso_2016_04_27.iso|[微云](http://share.weiyun.com/48255e336153e4555686a2e4b61eee36)/[百度云](http://pan.baidu.com/s/1nuSP6hN)|0F8B9AEB8E851847203BA80EF95814B2|168 MB (175,788,032 bytes)||
+|qianlong_app_iso_2016_04_27.iso|[微云](http://share.weiyun.com/6b5b2a5a9fbe920cdf3086c7ad7579eb)/[百度云](http://pan.baidu.com/s/1slWvyOH)|5931011030507BD9CF2CD56DCC5B810F|19.5 MB (20,453,376 bytes)|　|
 
 ---------------
 |点对点服务端 & Serviceconfig| 下载地址|MD5 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
-|点对点服务端 140|[微云](http://share.weiyun.com/4f4b45ca52be53b9daff6719f73247d0)/[百度云]()|3A5452B58F9B44265C226405DD23FBCC|808 KB (827,279 bytes)||
-|Serviceconfig服务配置工具2016-01-21|[微云](http://share.weiyun.com/fd728273d090c6f6db3b40a1531e275d)/[百度云]()|BC130640AA1B59D22AE0EA6F82A1BC50|23.9 MB (25,097,825 bytes)|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
+|点对点服务端 140|[微云](http://share.weiyun.com/4f4b45ca52be53b9daff6719f73247d0)/[百度云](http://pan.baidu.com/s/1dFFOSgx)|3A5452B58F9B44265C226405DD23FBCC|808 KB (827,279 bytes)||
+|Serviceconfig服务配置工具2016-01-21|[微云](http://share.weiyun.com/fd728273d090c6f6db3b40a1531e275d)/[百度云](http://pan.baidu.com/s/1bpbXviB)|BC130640AA1B59D22AE0EA6F82A1BC50|23.9 MB (25,097,825 bytes)|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
 ---------------
 |周边工具| 下载地址|备注|
 | ------ |:----------:|:----------:|
-|Winscp|[微云](http://share.weiyun.com/3873742e957dd38e626a4ca8a4a53bc9)/[百度云]()|SSH工具|
-|Putty|[微云](http://share.weiyun.com/98b42da89378027ef479e16540d228cd)/[百度云]()|推荐与winscp一起安装使用|
-|转小写批处理|[微云](http://share.weiyun.com/10acfe290b54c23e783e1b0edf2ee920)/[百度云]()|Novell 拷贝日线转小写到Linux|
-|U盘烧录软件|[微云](http://share.weiyun.com/77a15702b9d1670c8e3fdf7ca45f9899)/[百度云]()|[官网地址](http://cn.ezbsystems.com/ultraiso/download.htm)|
-|子网掩码计算器|[微云](http://share.weiyun.com/f17524a33950e8b01b5c2cdaff775edb)/[百度云]()|营业部无盘站超过一个子网计算时用|
+|Winscp|[微云](http://share.weiyun.com/3873742e957dd38e626a4ca8a4a53bc9)/[百度云](http://pan.baidu.com/s/1pLb8TtDhttp://pan.baidu.com/s/1pLb8TtD)|SSH工具|
+|Putty|[微云](http://share.weiyun.com/98b42da89378027ef479e16540d228cd)/[百度云](http://pan.baidu.com/s/1pLb8TtD)|推荐与winscp一起安装使用|
+|转小写批处理|[微云](http://share.weiyun.com/10acfe290b54c23e783e1b0edf2ee920)/[百度云](http://pan.baidu.com/s/1mhHwsoK)|Novell 拷贝日线转小写到Linux|
+|U盘烧录软件|[微云](http://share.weiyun.com/77a15702b9d1670c8e3fdf7ca45f9899)/[百度云](http://pan.baidu.com/s/1i5sajkT)|[官网地址](http://cn.ezbsystems.com/ultraiso/download.htm)|
+|子网掩码计算器|[微云](http://share.weiyun.com/f17524a33950e8b01b5c2cdaff775edb)/[百度云](http://pan.baidu.com/s/1bp2vKjP)|营业部无盘站超过一个子网计算时用|
 |浏览器||推荐 谷歌、火狐|
 
 ## 历史数据下载
