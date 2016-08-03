@@ -1,6 +1,26 @@
 # 补数据教程
 
-## Linux 补数据
+<font color=#C0C0C0 size=4 ></font>
+
+
+## Linux rt下载数据
+
+### 关于服务器地址
+
+因公司服务器优化调整，原电信线路RT数据下载服务器**<font color=#C0C0C0 size=4 >180.153.140.215</font>**
+将于2016年7月23日停止对外提供服务，涉及日线数据下载业务。
+
+调整后RT数据下载服务器地址:
+
+电信线路1：**<font color=#006600 size=4 >122.226.188.39</font>**
+
+电信线路2: **<font color=#006600 size=4 >58.56.9.66</font>**
+
+联通线路： **<font color=#006600 size=4 >60.217.231.66</font>**
+
+
+
+## Linux 手动拷贝补数据
 
 ### 补分时（实时）数据
 
@@ -17,7 +37,7 @@
 股份转让日线位置opt/qianlong/sysdata/realtime/neeq/除文件夹以外的其他文件
 
 --------------
-前几天的分时 
+前几天的分时
 
 上海日线位置opt/qianlong/sysdata/realtime/shase/年月日.dat 的文件夹
 
@@ -99,7 +119,7 @@ chown -R qianlong:qianlong /opt/qianlong
 -------------
 龙讯F10
 
- 信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)  **首页>技术支持>数据下载** 
+ 信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)  **首页>技术支持>数据下载**
 
 |历史咨询| 下载地址|备注|
 | ------ |:----------:|:----------:|
