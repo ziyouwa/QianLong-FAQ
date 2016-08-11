@@ -58,10 +58,10 @@
 
 ---------------
 
-### Novell故障处理
-#### 1、使用UPGRADE做延期时第一步或第四步提示“T_Lock not found!”或者“upgrade t-lock error！”。多次更换无盘站无效。 
+## Novell故障处理
+#### 1、使用UPGRADE做延期时第一步或第四步提示“T_Lock not found!”或者“upgrade t-lock error！”。多次更换无盘站无效。
 
-A．将并口狗插入windows 有盘站上，并拷贝服务器映射盘符内的ml45\system\driver目录下的BKDRIVER.RAR至windows本机解压缩，执行解压后的setup.exe，完成并口狗驱动安装后，cmd命令行下进行upgrade延期。 
+A．将并口狗插入windows 有盘站上，并拷贝服务器映射盘符内的ml45\system\driver目录下的BKDRIVER.RAR至windows本机解压缩，执行解压后的setup.exe，完成并口狗驱动安装后，cmd命令行下进行upgrade延期。
 
 #### 2、使用UPGRADE做延期时第二步报错“Target path error！”，提示无法找到文件路径。
 
@@ -86,7 +86,7 @@ C.当前用户没有足够的操作权限，请重新赋权后做延期。
 
 1、 将两个授权文件重命名为 mldata.ql4 mldata.ql6 (区分大小写，要小写)
 
-2、 将两个改名后的文件放到opt/qianlong/right/目录下
+2、 将两个改名后的文件通过ssh工具上传到opt/qianlong/right/目录下
 
 然后执行赋权命令
 ```

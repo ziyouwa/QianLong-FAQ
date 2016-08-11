@@ -1,40 +1,52 @@
 # 补数据教程
 
-<font color=#C0C0C0 size=4 ></font>
+## 补数据需求
+**<font color=#996600 size=3 > 补当日或者前几日 分时／实时 数据</font>** 推荐使用 **方法四、方法二**
+**<font color=#996600 size=3 > 补当日k线数据</font>** 推荐使用 **方法三、方法四、方法二**
+**<font color=#996600 size=3 > 补当日分钟线、月线、全息资料</font>** 推荐使用 **方法四、方法二**
+**<font color=#996600 size=3 > 补区个股或市场区间k线</font>** 推荐使用 **方法一、方法四、方法二**
+**<font color=#996600 size=3 > 补历史全部资料</font>** 推荐使用 **方法四、方法二** 和 **方法五**
+**<font color=#996600 size=3 > 补龙讯F10、全息资料</font>** 推荐使用 **方法五**
 
+## 关于补数据的方法
 
-## Linux rt下载数据
+#### 方法一、rt服务器下载
+**rt服务器地址 电信线路1: 122.226.188.39  |  电信线路2: 58.56.9.66  |  联通线路: 60.217.231.66 **
+**<font color=#ff9900 size=2 >  ⚠ rt服务器只能补日线！</font>**
+```
+说明：关于rt服务器指的就是daydown下载工具所连接的服务器ip，Novell与Linux通用。
+```
 
-### 关于服务器地址
+#### 方法二、Novell与Linux互相拷贝 **<font color=#cc3300 size=4 >Novell与Linux 沪深期货数据通用（ 港股通、股转不通用 ）</font>**
+**<font color=#ff9900 size=2 >⚠ Novell向Linux拷贝数据，注意要转换小写！ </font>**  | 转小写批处理： [微云](http://share.weiyun.com/10acfe290b54c23e783e1b0edf2ee920)/[百度云](http://pan.baidu.com/s/1mhHwsoK)
+```
+使用方法：将批处理放到需要转换大小写文件夹的同目录，直接执行即可，会将通目录和子目录一并转换小写。
+```
+#### 方法三、官网下载
+**<font color=#ff9900 size=2 >  ⚠ 官方只能补日线！当日k线17点更新 使用wmanager工具</font>**
 
-因公司服务器优化调整，原电信线路RT数据下载服务器**<font color=#C0C0C0 size=4 >180.153.140.215</font>**
-将于2016年7月23日停止对外提供服务，涉及日线数据下载业务。
+#### 方法四、其他营业部、其他服务器拷贝
 
-调整后RT数据下载服务器地址:
+#### 方法五、龙讯F10官网下载
+**<font color=#ff9900 size=2 >  ⚠ 每周五更新 信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)   首页>技术支持>数据下载</font>**
 
-电信线路1：**<font color=#006600 size=4 >122.226.188.39</font>**
+----------
 
-电信线路2: **<font color=#006600 size=4 >58.56.9.66</font>**
-
-联通线路： **<font color=#006600 size=4 >60.217.231.66</font>**
-
-
-
-## Linux 手动拷贝补数据
+## Linux 数据对应目录
 
 ### 补分时（实时）数据
-
+```
 当日（实时）分时
 
-上海日线位置opt/qianlong/sysdata/realtime/shase/除文件夹以外的其他文件
+上海分时数据位置opt/qianlong/sysdata/realtime/shase/除文件夹以外的其他文件
 
-深圳日线位置opt/qianlong/sysdata/realtime/sznse/除文件夹以外的其他文件
+深圳分时数据位置opt/qianlong/sysdata/realtime/sznse/除文件夹以外的其他文件
 
-港股通日线位置opt/qianlong/sysdata/realtime/hk2sh/除文件夹以外的其他文件
+港股通分时数据位置opt/qianlong/sysdata/realtime/hk2sh/除文件夹以外的其他文件
 
-期货日线位置opt/qianlong/sysdata/realtime/cnfol/除文件夹以外的其他文件
+期货分时数据位置opt/qianlong/sysdata/realtime/cnfol/除文件夹以外的其他文件
 
-股份转让日线位置opt/qianlong/sysdata/realtime/neeq/除文件夹以外的其他文件
+股份转让分时数据位置opt/qianlong/sysdata/realtime/neeq/除文件夹以外的其他文件
 
 --------------
 前几天的分时
@@ -48,11 +60,11 @@
 期货日线位置opt/qianlong/sysdata/realtime/cnfol/年月日.dat 的文件夹
 
 股份转让日线位置opt/qianlong/sysdata/realtime/年月日.dat 的文件夹
-
+```
 
 
 ### 补历史数据
-
+```
 日线
 
 上海日线位置opt/qianlong/sysdata/history/shase/day
@@ -63,7 +75,7 @@
 
 期货日线位置opt/qianlong/sysdata/history/cnfol/day
 
-股份转让日线位置opt/qianlong/sysdata/history/neeq
+股份转让日线位置opt/qianlong/sysdata/history/neeq/day
 
 -------------
 月线
@@ -94,10 +106,10 @@
 股份转让一分钟线位置opt/qianlong/sysdata/history/kmn1
 
 股份转让十五分钟线位置opt/qianlong/sysdata/history/km15
-
+```
 -------------
 全息资料
-
+```
 上海日线位置opt/qianlong/sysdata/realtime/shase/weight
 
 深圳日线位置opt/qianlong/sysdata/realtime/sznse/weight
@@ -107,6 +119,7 @@
 期货日线位置opt/qianlong/sysdata/history/cnfol/weight
 
 股份转让日线位置opt/qianlong/sysdata/history/weight
+```
 
 **以上所有文件操作，操作完成均执行赋权命令**
 
@@ -117,7 +130,98 @@ chown -R qianlong:qianlong /opt/qianlong
 ```
 
 -------------
-龙讯F10
+
+## Novell 数据对应目录
+
+### 补分时（实时）数据
+```
+当日（实时）分时
+
+上海分时数据位置ml45/sysdata/realtime/shase/除文件夹以外的其他文件
+
+深圳分时数据位置ml45/sysdata/realtime/sznse/除文件夹以外的其他文件
+
+港股通分时数据位置ml45/sysdata/realtime/hk2sh/除文件夹以外的其他文件
+
+期货分时数据位置ml45/sysdata/realtime/cnfol/除文件夹以外的其他文件
+
+股份转让分时数据位置ml45/sysdata/realtime/neeq/除文件夹以外的其他文件
+
+--------------
+前几天的分时
+
+上海日线位置ml45/sysdata/realtime/shase/年月日.dat 的文件夹
+
+深圳日线位置ml45/sysdata/realtime/sznse/年月日.dat 的文件夹
+
+港股通日线位置ml45/sysdata/realtime/hk2sh/年月日.dat 的文件夹
+
+期货日线位置ml45/sysdata/realtime/cnfol/年月日.dat 的文件夹
+
+股份转让日线位置ml45/sysdata/realtime/年月日.dat 的文件夹
+```
+
+### 补历史数据
+```
+日线
+
+上海日线位置ml45/sysdata/history/shase/day
+
+深圳日线位置ml45/sysdata/history/sznse/day
+
+港股通日线位置ml45/sysdata/history/hk2sh/day
+
+期货日线位置ml45/sysdata/history/cnfol/day
+
+股份转让日线位置ml45/sysdata/history/neeq/day
+
+-------------
+月线
+
+港股通月线位置ml45/sysdata/history/hk2sh/kmon
+
+股份转让月线位置ml45/sysdata/history/kmon
+
+-------------
+分钟线
+
+上海一分钟线位置ml45/sysdata/history/shase/1mn
+
+上海五分钟线位置ml45/sysdata/history/shase/min
+
+深圳一分钟线位置ml45/sysdata/history/sznse/1mn
+
+深圳五分钟线位置ml45/sysdata/history/sznse/min
+
+港股通一分钟线位置ml45/sysdata/history/hk2sh/kmn1
+
+港股通十五分钟线位置ml45/sysdata/history/hk2sh/km15
+
+期货一分钟线位置ml45/sysdata/history/cnfol/1mn
+
+期货五分钟线位置ml45/sysdata/history/cnfol/min
+
+股份转让一分钟线位置ml45/sysdata/history/kmn1
+
+股份转让十五分钟线位置ml45/sysdata/history/km15
+```
+-------------
+全息资料
+```
+上海日线位置ml45/sysdata/realtime/shase/weight
+
+深圳日线位置ml45/sysdata/realtime/sznse/weight
+
+港股通日线位置ml45/sysdata/history/hk2sh/weight
+
+期货日线位置ml45/sysdata/history/cnfol/weight
+
+股份转让日线位置ml45/sysdata/history/weight
+```
+
+## 龙讯F10
+
+### linux 龙讯F10
 
  信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)  **首页>技术支持>数据下载**
 
@@ -126,4 +230,4 @@ chown -R qianlong:qianlong /opt/qianlong
 |LINUX版龙讯C系列F10完整历史数据|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
 |龙讯权息weight历史数据包|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
 
-## Novell 补数据
+### Novell 龙讯F10
