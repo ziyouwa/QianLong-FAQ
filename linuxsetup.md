@@ -19,7 +19,7 @@
 | ------ |:----------:|:----------:|:----------:|:----------:|:----------:|
 |Linux(redhat) 6.2|rhel-6.2-i386-custom.iso| [微云](http://share.weiyun.com/0c7ec2e5abf74e843d97c18122bb5090)/[百度云](http://pan.baidu.com/s/1bPOgSu)|C182C551654E6DBEFE3AE42076E26D32|524 MB (549,732,352 bytes)|旧服务器光盘安装的系统版本
 |Linux（redhat）7.0|rhel-7.0-x86_64-custom.iso|[微云](http://share.weiyun.com/7982e6981ebb0379498d0f686a5106a0)/[百度云](http://pan.baidu.com/s/1kUWXvzL)|645553C297D1FB96A938AD05E02DB8DD|905 MB (949,043,200 bytes)|光盘安装系统镜像
-|**<font color=#00ccff size=3 >Linux（centos）7.2 推荐安装</font>**|QL_LINUX7-x86_64-20160722.iso|[微云](http://share.weiyun.com/402c34eb0fc184181123344b0cf419f7)/[百度云](http://pan.baidu.com/s/1jH6CblW)|5B1F4F934708C0E1981405540F4D0817|1,006 MB (1,054,736,384 bytes)|**<font color=#cc3300 size=3 >U盘安装镜像(内置7月22日app&diskless)</font>**
+|**Linux（centos）7.2 推荐安装**|QL_LINUX7-x86_64-20160722.iso|[微云](http://share.weiyun.com/402c34eb0fc184181123344b0cf419f7)/[百度云](http://pan.baidu.com/s/1jH6CblW)|5B1F4F934708C0E1981405540F4D0817|1,006 MB (1,054,736,384 bytes)|**<font color=#cc3300 size=3 >U盘安装镜像(内置7月22日app&diskless)</font>**
 
 ---------------
 |Diskless & APP| 下载地址|MD5 |文件大小|备注|
