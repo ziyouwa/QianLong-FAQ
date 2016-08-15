@@ -35,7 +35,7 @@
 ---------------
 |周边工具| 下载地址|备注|
 | ------ |:----------:|:----------:|
-|Winscp|[微云](http://share.weiyun.com/3873742e957dd38e626a4ca8a4a53bc9)/[百度云](http://pan.baidu.com/s/1pLb8TtDhttp://pan.baidu.com/s/1pLb8TtD)|SSH工具|
+|Winscp|[微云](http://share.weiyun.com/3873742e957dd38e626a4ca8a4a53bc9)/[百度云](http://pan.baidu.com/s/1pLb8TtD)|SSH工具|
 |Putty|[微云](http://share.weiyun.com/98b42da89378027ef479e16540d228cd)/[百度云](http://pan.baidu.com/s/1pLb8TtD)|推荐与winscp一起安装使用|
 |转小写批处理|[微云](http://share.weiyun.com/10acfe290b54c23e783e1b0edf2ee920)/[百度云](http://pan.baidu.com/s/1mhHwsoK)|Novell 拷贝日线转小写到Linux|
 |U盘烧录软件|[微云](http://share.weiyun.com/77a15702b9d1670c8e3fdf7ca45f9899)/[百度云](http://pan.baidu.com/s/1i5sajkT)|[官网地址](http://cn.ezbsystems.com/ultraiso/download.htm)|
