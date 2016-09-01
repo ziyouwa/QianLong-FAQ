@@ -17,21 +17,21 @@
 
 | 系统版本|文件名| 下载地址|文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|:----------:|
-|Linux(redhat) 6.2|rhel-6.2-i386-custom.iso| [360云](https://yunpan.cn/cMeSHXNEPkIzp)密码 1566<br>[百度云](http://pan.baidu.com/s/1bPOgSu)|524 MB (549,732,352 bytes)|旧服务器光盘安装的系统版本
-|Linux（redhat）7.0|rhel-7.0-x86_64-custom.iso|[360云](https://yunpan.cn/cMe6vQEqXHTva)密码 3a1f<br>[百度云](http://pan.baidu.com/s/1kUWXvzL)|905 MB (949,043,200 bytes)|光盘安装系统镜像
-|**Linux（centos）7.2 推荐安装**|QL_LINUX7-x86_64-20160722.iso|[360云](https://yunpan.cn/cMe687wmktyac)密码 d213<br>[百度云](http://pan.baidu.com/s/1jH6CblW)|1,006 MB (1,054,736,384 bytes)|**<font color=#cc3300 size=3 >U盘安装镜像(内置7月22日app&diskless)</font>**
+|Linux(redhat) 6.2|rhel-6.2-i386-custom.iso| [360云](https://yunpan.cn/cMeSHXNEPkIzp) 密码 1566<br>[百度云](http://pan.baidu.com/s/1bPOgSu)|524 MB|旧服务器光盘安装的系统版本
+|Linux（redhat）7.0|rhel-7.0-x86_64-custom.iso|[360云](https://yunpan.cn/cMe6vQEqXHTva) 密码 3a1f<br>[百度云](http://pan.baidu.com/s/1kUWXvzL)|905 MB|光盘安装系统镜像
+|**Linux（centos）7.2 推荐安装**|QL_LINUX7-x86_64-20160722.iso|[360云](https://yunpan.cn/cMe687wmktyac) 密码 d213<br>[百度云](http://pan.baidu.com/s/1jH6CblW)|1,006 MB|**<font color=#cc3300 size=3 >U盘安装镜像(内置7月22日app&diskless)</font>**
 
 ---------------
-|Diskless & APP| 下载地址|MD5 |文件大小|备注|
+|Diskless & APP| 下载地址 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
-|qianlong_diskless_iso_2016_07_22.iso|[360云](http://share.weiyun.com/)/[百度云](http://pan.baidu.com/s/1nuBVBwH)|469EDAA1E6CF1CEECD9DAF3516A4B622|170 MB (178,251,776 bytes)||
-|qianlong_app_iso_2016_07_22.iso|[360云](http://share.weiyun.com/)/[百度云](http://pan.baidu.com/s/1qYgXCh2)|4E39F1B934206E72135ED96EE23BBB18|19.8 MB (20,762,624 bytes)|　|
+|qianlong_diskless_iso_2016_07_22.iso|[360云](http://share.weiyun.com/)/[百度云](http://pan.baidu.com/s/1nuBVBwH)|170 MB||
+|qianlong_app_iso_2016_07_22.iso|[360云](http://share.weiyun.com/)/[百度云](http://pan.baidu.com/s/1qYgXCh2)|19.8 MB|　|
 
 ---------------
 |点对点服务端 & Serviceconfig| 下载地址|MD5 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
-|点对点服务端 140|[360云](http://share.weiyun.com/4f4b45ca52be53b9daff6719f73247d0)/[百度云](http://pan.baidu.com/s/1dFFOSgx)|3A5452B58F9B44265C226405DD23FBCC|808 KB (827,279 bytes)||
-|Serviceconfig服务配置工具2016-01-21|[360云](http://share.weiyun.com/fd728273d090c6f6db3b40a1531e275d)/[百度云](http://pan.baidu.com/s/1bpbXviB)|BC130640AA1B59D22AE0EA6F82A1BC50|23.9 MB (25,097,825 bytes)|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
+|点对点服务端 140|[360云](https://yunpan.cn/cMeMH4ZPF5TyI ) 访问密码 b004<br>[百度云](http://pan.baidu.com/s/1dFFOSgx)|3A5452B58F9B44265C226405DD23FBCC|808 KB||
+|Serviceconfig服务配置工具2016-01-21|[360云](http://share.weiyun.com/fd728273d090c6f6db3b40a1531e275d)/[百度云](http://pan.baidu.com/s/1bpbXviB)|BC130640AA1B59D22AE0EA6F82A1BC50|23.9 MB|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
 ---------------
 |周边工具| 下载地址|备注|
 | ------ |:----------:|:----------:|
