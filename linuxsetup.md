@@ -24,21 +24,21 @@
 ---------------
 |Diskless & APP| 下载地址 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
-|qianlong_diskless_iso_2016_07_22.iso|[360云](http://share.weiyun.com/)/[百度云](http://pan.baidu.com/s/1nuBVBwH)|170 MB||
-|qianlong_app_iso_2016_07_22.iso|[360云](http://share.weiyun.com/)/[百度云](http://pan.baidu.com/s/1qYgXCh2)|19.8 MB|　|
+|qianlong_diskless_iso_2016_07_22.iso|[360云](https://yunpan.cn/cMekji94TH9wf) 访问密码 1e87 <br>[百度云](http://pan.baidu.com/s/1nuBVBwH)|170 MB||
+|qianlong_app_iso_2016_07_22.iso|[360云](https://yunpan.cn/cMekJZTnLGZXG )访问密码 2ed2<br>[百度云](http://pan.baidu.com/s/1qYgXCh2)|19.8 MB|　|
 
 ---------------
 |点对点服务端 & Serviceconfig| 下载地址|MD5 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
 |点对点服务端 140|[360云](https://yunpan.cn/cMeMH4ZPF5TyI ) 访问密码 b004<br>[百度云](http://pan.baidu.com/s/1dFFOSgx)|3A5452B58F9B44265C226405DD23FBCC|808 KB||
-|Serviceconfig服务配置工具2016-01-21|[360云](http://share.weiyun.com/fd728273d090c6f6db3b40a1531e275d)/[百度云](http://pan.baidu.com/s/1bpbXviB)|BC130640AA1B59D22AE0EA6F82A1BC50|23.9 MB|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
+|Serviceconfig服务配置工具2016-01-21|[360云](https://yunpan.cn/cMevR4psNw8fp ) 访问密码 07fb<br>[百度云](http://pan.baidu.com/s/1bpbXviB)|BC130640AA1B59D22AE0EA6F82A1BC50|23.9 MB|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
 ---------------
 |周边工具| 下载地址|备注|
 | ------ |:----------:|:----------:|
-|Winscp|[360云](http://share.weiyun.com/3873742e957dd38e626a4ca8a4a53bc9)/[百度云](http://pan.baidu.com/s/1pLb8TtD)|SSH工具|
-|Putty|[360云](http://share.weiyun.com/98b42da89378027ef479e16540d228cd)/[百度云](http://pan.baidu.com/s/1pLb8TtD)|推荐与winscp一起安装使用|
-|转小写批处理|[360云](http://share.weiyun.com/10acfe290b54c23e783e1b0edf2ee920)/[百度云](http://pan.baidu.com/s/1mhHwsoK)|Novell 拷贝日线转小写到Linux|
-|U盘烧录软件|[360云](http://share.weiyun.com/77a15702b9d1670c8e3fdf7ca45f9899)/[百度云](http://pan.baidu.com/s/1i5sajkT)|[官网地址](http://cn.ezbsystems.com/ultraiso/download.htm)|
+|Winscp|[360云](https://yunpan.cn/cMevvmBdJLtjJ ) 访问密码 75a3<br>[百度云](http://pan.baidu.com/s/1pLb8TtD)|SSH工具|
+|Putty|[360云](https://yunpan.cn/cMeveXUe99jsf )访问密码 4d48<br>[百度云](http://pan.baidu.com/s/1pLb8TtD)|推荐与winscp一起安装使用|
+|转小写批处理|[360云](https://yunpan.cn/cMevGLYtDxw8k) 访问密码 091b<br>[百度云](http://pan.baidu.com/s/1mhHwsoK)|Novell 拷贝日线转小写到Linux|
+|U盘烧录软件|[360云](https://yunpan.cn/cMeE8KekXJSFt )访问密码 91e6<br>[百度云](http://pan.baidu.com/s/1i5sajkT)|[官网地址](http://cn.ezbsystems.com/ultraiso/download.htm)|
 |子网掩码计算器|[360云](http://share.weiyun.com/f17524a33950e8b01b5c2cdaff775edb)/[百度云](http://pan.baidu.com/s/1bp2vKjP)|营业部无盘站超过一个子网计算时用|
 |浏览器||推荐 谷歌、火狐|
 
