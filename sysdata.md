@@ -110,15 +110,15 @@
 -------------
 全息资料
 ```
-上海日线位置opt/qianlong/sysdata/realtime/shase/weight
+上海日线位置opt/qianlong/sysdata/history/shase/weight
 
-深圳日线位置opt/qianlong/sysdata/realtime/sznse/weight
+深圳日线位置opt/qianlong/sysdata/history/sznse/weight
 
 港股通日线位置opt/qianlong/sysdata/history/hk2sh/weight
 
 期货日线位置opt/qianlong/sysdata/history/cnfol/weight
 
-股份转让日线位置opt/qianlong/sysdata/history/weight
+股份转让日线位置opt/qianlong/sysdata/history/neeq/weight
 ```
 
 **以上所有文件操作，操作完成均执行赋权命令**
