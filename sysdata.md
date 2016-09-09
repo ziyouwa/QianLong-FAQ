@@ -1,6 +1,6 @@
 # 补数据教程
 
-## 补数据需求
+## 补数据需求 **<font color=#87CEFA size=3 >(可以理解为官方只支持补日线数据)</font>**
 **<font color=#996600 size=3 > 补当日或者前几日 分时／实时 数据</font>** 推荐使用 **方法四、方法二**
 **<font color=#996600 size=3 > 补当日k线数据</font>** 推荐使用 **方法三、方法四、方法二**
 **<font color=#996600 size=3 > 补当日分钟线、月线、全息资料</font>** 推荐使用 **方法四、方法二**
@@ -16,7 +16,6 @@
 ```
 说明：关于rt服务器指的就是daydown下载工具所连接的服务器ip，Novell与Linux通用。
 ```
-
 #### 方法二、Novell与Linux互相拷贝 **<font color=#cc3300 size=4 >Novell与Linux 沪深期货数据通用（ 港股通、股转不通用 ）</font>**
 **<font color=#ff9900 size=2 >⚠ Novell向Linux拷贝数据，注意要转换小写！ </font>**  | 转小写批处理： [微云](http://share.weiyun.com/10acfe290b54c23e783e1b0edf2ee920)/[百度云](http://pan.baidu.com/s/1mhHwsoK)
 ```
@@ -24,6 +23,7 @@
 ```
 #### 方法三、官网下载
 **<font color=#ff9900 size=2 >  ⚠ 官方只能补日线！当日k线17点更新 使用wmanager工具</font>**
+下载地址 http://www.qianlong.com.cn/soft/download_data.aspx
 
 #### 方法四、其他营业部、其他服务器拷贝
 
