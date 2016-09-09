@@ -55,7 +55,7 @@
 
 ## 系统安装 (光盘安装/USB安装)
 
-> 视频下载地址：[360云](https://yunpan.cn/cMeaBuThBWyzE)访问密码 7a2f [百度云](http://pan.baidu.com/s/1dEW3Brz)
+> **<font color=#cc3300 size=3 > 视频下载地址：[360云](https://yunpan.cn/cMeaBuThBWyzE)访问密码 7a2f [百度云](http://pan.baidu.com/s/1dEW3Brz)</font>**
 
 
 ## 文档下载
