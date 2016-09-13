@@ -229,5 +229,3 @@ chown -R qianlong:qianlong /opt/qianlong
 | ------ |:----------:|:----------:|
 |LINUX版龙讯C系列F10完整历史数据|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
 |龙讯权息weight历史数据包|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
-
-### Novell 龙讯F10
