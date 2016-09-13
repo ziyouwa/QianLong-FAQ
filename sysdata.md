@@ -216,7 +216,7 @@ chown -R qianlong:qianlong /opt/qianlong
 
 期货日线位置ml45/sysdata/history/cnfol/weight
 
-股份转让日线位置ml45/sysdata/history/weight
+股份转让日线位置ml45/sysdata/history/neeq/weight
 ```
 
 ## 龙讯F10
