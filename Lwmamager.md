@@ -35,6 +35,7 @@ UserPath=y:/qianlong/
 ```
 **修改y为自己所映射的linux盘符**
 4. 打开WManager.exe→点击数据管理→安装生产→点击安装→等待安装完成。
+
 ![](image/QQ20160920160940.png)
 
 5. **以上所有文件操作，操作完成均执行赋权命令**
@@ -47,6 +48,7 @@ chown -R qianlong:qianlong /opt/qianlong
 
 ## 删除日线方法
 操作方法同上
+
 ![](image/QQ20160920161848.png)
 
 ![](image/QQ20160920162001.png)
