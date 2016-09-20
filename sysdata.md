@@ -21,7 +21,7 @@
 ```
 使用方法：将批处理放到需要转换大小写文件夹的同目录，直接执行即可，会将通目录和子目录一并转换小写。
 ```
-#### 方法三、官网下载
+#### 方法三、官网下载 [**<font color=#cc3300 size=3 > linux wmanager补数据方法</font>**](Lwmamager.md)
 **<font color=#ff9900 size=2 >  ⚠ 官方只能补日线！当日k线17点更新 使用wmanager工具</font>**
 下载地址 http://www.qianlong.com.cn/soft/download_data.aspx
 
