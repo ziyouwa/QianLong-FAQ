@@ -19,13 +19,13 @@
 | ------ |:----------:|:----------:|:----------:|:----------:|:----------:|
 |Linux(redhat) 6.2|rhel-6.2-i386-custom.iso| [360云](https://yunpan.cn/cMeSHXNEPkIzp) 密码 1566<br>[百度云](http://pan.baidu.com/s/1bPOgSu)|524 MB|旧服务器光盘安装的系统版本
 |Linux（redhat）7.0|rhel-7.0-x86_64-custom.iso|[360云](https://yunpan.cn/cMe6vQEqXHTva) 密码 3a1f<br>[百度云](http://pan.baidu.com/s/1kUWXvzL)|905 MB|光盘安装系统镜像
-|**Linux（centos）7.2 推荐安装**|QL_LINUX7-x86_64-20160722.iso|[360云](https://yunpan.cn/cMe687wmktyac) 密码 d213<br>[百度云](http://pan.baidu.com/s/1jH6CblW)|1,006 MB|**<font color=#cc3300 size=3 >U盘安装镜像(内置7月22日app&diskless)</font>**
+|**Linux（centos）7.2 推荐安装**|QL_LINUX7-x86_64-20160919.iso|[360云](https://yunpan.cn/ck8qnvG7efKZG) 密码 75cc<br>[百度云](http://pan.baidu.com/s/1geXiBMN)|1,006 MB|**<font color=#cc3300 size=3 >U盘安装镜像(内置9月19日app&diskless)</font>**
 
 ---------------
 |Diskless & APP| 下载地址 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
-|qianlong_diskless_iso_2016_07_22.iso|[360云](https://yunpan.cn/cMekji94TH9wf) 访问密码 1e87 <br>[百度云](http://pan.baidu.com/s/1nuBVBwH)|170 MB||
-|qianlong_app_iso_2016_07_22.iso|[360云](https://yunpan.cn/cMekJZTnLGZXG )访问密码 2ed2<br>[百度云](http://pan.baidu.com/s/1qYgXCh2)|19.8 MB|　|
+|qianlong_diskless_iso_2016_09_19.iso|[360云](https://yunpan.cn/ck8kjAY9DiD8B )  访问密码 ce61 <br>[百度云](http://pan.baidu.com/s/1o7GFv5o)|170 MB||
+|qianlong_app_iso_2016_09_19.iso|[360云](https://yunpan.cn/ck8kweBZcLMUk  ) 访问密码 ca89<br>[百度云](http://pan.baidu.com/s/1nvKvxMx)|19.8 MB|　|
 
 ---------------
 |点对点服务端 & Serviceconfig| 下载地址|MD5 |文件大小|备注|
