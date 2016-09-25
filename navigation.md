@@ -17,4 +17,4 @@
 [资讯问题](xlinfo.md)
 [错误代码](error.md)
 [其他问题](other.md)
-[bug反馈](bug.md)
+[页面更新记录](https://github.com/it-andy-hou/QianLong-FAQ/commits/gh-pages)
