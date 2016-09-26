@@ -24,7 +24,4 @@
 
 ------------
 
-
->**打赏**
-
-![](http://7xlgx2.com1.z0.glb.clouddn.com/kele2.png)
+<center>![](http://7xlgx2.com1.z0.glb.clouddn.com/kele2.png)</center>
