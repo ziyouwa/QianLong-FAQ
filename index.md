@@ -25,5 +25,3 @@
 [Novell新股代码看不到](xg.md)　　[Novell内存溢出问题](novellnc.md)
 
 ------------
-
-<center>![](http://7xlgx2.com1.z0.glb.clouddn.com/kele2.png)</center>
