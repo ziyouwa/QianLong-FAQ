@@ -17,4 +17,4 @@
 [资讯问题](xlinfo.md)
 [错误代码](error.md)
 [页面更新记录](https://github.com/it-andy-hou/QianLong-FAQ/commits/gh-pages)
-[关于网站](about.html)
+<a href="about.html" target="_blank">关于网站</a>
