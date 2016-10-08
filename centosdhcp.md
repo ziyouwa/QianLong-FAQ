@@ -23,25 +23,25 @@ sh ql_fixed_dhcpd_20160930.sh
 执行完命令后会如下显示
 <div class="daima" style="background-color:#000000 ">
 <font color=#FFFFFF>
-Extracting...<br>
-<font color=#FFD700>update.sh</font> <font color=#008000>is updating...</font><br>
-cleaning system...<br>
-Upgrading software...<br>
-Preparing...　　　　　　　　　　　　　　################################# [100%]<br>
-Updating / installing...<br>
-　　1:dhcp-libs-12:4.2.5-43.el7.centos　################################# [ 13%]<br>
-　　2:dhcp-common-12:4.2.5-43.el7.cento################################# [ 25%]<br>
-　　3:dhclient-12:4.2.5-43.el7.centos　################################# [ 38%]<br>
-　　4:dhcp-12:4.2.5-43.el7.centos　　　################################# [ 50%]<br>
-Cleaning up / removing...<br>
-　　5:dhcp-12:4.2.5-42.el7.centos　　　################################# [ 63%]<br>
-　　6:dhclient-12:4.2.5-42.el7.centos　################################# [ 75%]<br>
-　　7:dhcp-common-12:4.2.5-42.el7.cento################################# [ 88%]<br>
-　　8:dhcp-libs-12:4.2.5-42.el7.centos　################################# [100%]<br>
-patching dhcpd.conf...<br>
-fixing permission...<br>
-restart dhcpd service.<br>
-Upgrade success!<br>
+Extracting...
+<font color=#FFD700>update.sh</font> <font color=#008000>is updating...</font>
+cleaning system...
+Upgrading software...
+Preparing...　　　　　　　　　　　　　　################################# [100%]
+Updating / installing...
+　　1:dhcp-libs-12:4.2.5-43.el7.centos　################################# [ 13%]
+　　2:dhcp-common-12:4.2.5-43.el7.cento################################# [ 25%]
+　　3:dhclient-12:4.2.5-43.el7.centos　################################# [ 38%]
+　　4:dhcp-12:4.2.5-43.el7.centos　　　################################# [ 50%]
+Cleaning up / removing...
+　　5:dhcp-12:4.2.5-42.el7.centos　　　################################# [ 63%]
+　　6:dhclient-12:4.2.5-42.el7.centos　################################# [ 75%]
+　　7:dhcp-common-12:4.2.5-42.el7.cento################################# [ 88%]
+　　8:dhcp-libs-12:4.2.5-42.el7.centos　################################# [100%]
+patching dhcpd.conf...
+fixing permission...
+restart dhcpd service.
+Upgrade success!
 <font color=#008000> Upgrade success!</font>
 </font>
 </div>
