@@ -18,7 +18,7 @@
 
 # Linux常见问题       
 
-[Centos7.2 DHCP问题](centosdhcp.md)　 [Linux新股代码看不到](xg.md)　　[Linux服务器时间校准](linuxfaq.md)　　[涨跌停价格不对](linuxfaq.md)　　[补日线/补分时/补历史数据](sysdata.md)　　[Linux自选股不保存](linuxfaq.md)　　[服务平台启动不起来](linuxfaq.md)　　[linux修改时间以及修改时区](linuxtime.md)
+[Centos7.2 DHCP问题](centosdhcp.md)　 [Linux新股代码看不到](xg.md)　　[Linux服务器时间校准](linuxfaq.md)　　[涨跌停价格不对](linuxfaq.md)　　[补日线/补分时/补历史数据](sysdata.md)　[linux删除日线方法](http://qlfaq.com/#!Lwmamager.md)　[Linux自选股不保存](linuxfaq.md)　　[服务平台启动不起来](linuxfaq.md)　　[linux修改时间以及修改时区](linuxtime.md)
 
 ------------
 # Novell常见问题
