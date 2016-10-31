@@ -1,23 +1,24 @@
-# 补数据教程
+补数据教程
 
-## 补数据需求 **<font color=#87CEFA size=3 >(可以理解为官方只支持补日线数据)</font>**
-**<font color=#996600 size=3 > 补当日或者前几日 分时／实时 数据</font>** 推荐使用 **[方法四](#ff4)、[方法二](#ff2)**  
-**<font color=#996600 size=3 > 补当日k线数据</font>** 推荐使用 **[方法三](#ff3)、[方法四](#ff4)、[方法二](#ff2)  
-**<font color=#996600 size=3 > 补当日分钟线、月线、全息资料</font>** 推荐使用 **[方法四](#ff4)、[方法二](#ff2)**  
-**<font color=#996600 size=3 > 补区个股或市场区间k线</font>** 推荐使用 **[方法一](#ff1)、[方法四](#ff4)、[方法二](#ff2)**  
-**<font color=#996600 size=3 > 补历史全部资料</font>** 推荐使用 **[方法四](#ff4)、[方法二](#ff2)** 和 **[方法五](#ff5)**  
+### 补数据需求 **<font color=#87CEFA size=3 >(可以理解为官方只支持补日线数据)</font>**
+**<font color=#996600 size=3 > 补当日或者前几日 分时／实时 数据</font>** 推荐使用 **[方法四](#ff4)、[方法二](#方法二、Novell与Linux互相拷贝)**  
+**<font color=#996600 size=3 > 补当日k线数据</font>** 推荐使用 **[方法三](#ff3)、[方法四](#ff4)、[方法二](#方法二、Novell与Linux互相拷贝)  
+**<font color=#996600 size=3 > 补当日分钟线、月线、全息资料</font>** 推荐使用 **[方法四](#ff4)、[方法二](#方法二、Novell与Linux互相拷贝)**  
+**<font color=#996600 size=3 > 补区个股或市场区间k线</font>** 推荐使用 **[方法一](#方法一、rt服务器下载)、[方法四](#ff4)、[方法二](#方法二、Novell与Linux互相拷贝)**  
+**<font color=#996600 size=3 > 补历史全部资料</font>** 推荐使用 **[方法四](#ff4)、[方法二](#方法二、Novell与Linux互相拷贝)** 和 **[方法五](#ff5)**  
 **<font color=#996600 size=3 > 补龙讯F10、全息资料</font>** 推荐使用 **[方法五](#ff5)**  
 
 ## 关于补数据的方法
 
-#### 方法一、rt服务器下载 <span id="ff1"></span>
-rt服务器地址: **电信线路1: 122.226.188.39  |  电信线路2: 58.56.9.66  |  联通线路: 60.217.231.66**
-**<font color=#ff9900 size=2 >   
-⚠ rt服务器只能补日线！</font>**
+方法一、rt服务器下载
+
+rt服务器地址: **电信线路1: 122.226.188.39  |  电信线路2: 58.56.9.66  |  联通线路: 60.217.231.66**  
+**<font color=#ff9900 size=2 >⚠ rt服务器只能补日线！</font>**
 ```
 说明：关于rt服务器指的就是daydown下载工具所连接的服务器ip，Novell与Linux通用。
 ```
-#### 方法二、Novell与Linux互相拷贝 <span id="ff2"></span>
+方法二、Novell与Linux互相拷贝
+
 **<font color=#cc3300 size=3 >Novell与Linux 沪深期货数据通用（ 港股通、股转不通用 ）</font>**  
 **<font color=#ff9900 size=2 >⚠ Novell向Linux拷贝数据，注意要转换小写！ </font>**    
 转小写批处理下载链接： [微云](http://share.weiyun.com/10acfe290b54c23e783e1b0edf2ee920)/[百度云](http://pan.baidu.com/s/1mhHwsoK)  
