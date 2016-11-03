@@ -4,8 +4,8 @@
 
 少量无盘站启动没问题，多台或者同时启动多台无盘站存在无法进去，拿不到IP地址的情况。无盘站dhcp获取地址与网页管理看到的地址不同，或存在IP地址+1的情况。
 
-**<font color=#A52A2A>注意:此问题只存在Centos7.2系统上, Linux 6.2、Linux 7.0无这个问题</font>**
-查看系统系统版本命令<code>cat /etc/redhat-release</code>
+**<font color=#A52A2A>注意:此问题只存在Centos7.2系统上, 其他版本无此问题</font>**
+参考[查看Linux版本](./linuxfaq.html#如何查看我的Linux版本)
 
 **解决办法：**
 
@@ -19,13 +19,13 @@
 1. 下载后会会得到一个**ql_fixed_dhcpd_20160930.tar.gz**的升级包，将文件通过ssh工具上传到/opt目录下
 2. 执行命令进行解压和赋权操作
 
-```
+```Bash
 cd /opt/
 tar -zxvf ql_fixed_dhcpd_20160930.tar.gz
 chmod -R 777 ql_fixed_dhcpd_20160930.sh
 sh ql_fixed_dhcpd_20160930.sh
 ```
-执行完命令后会如下显示
+执行完命令后会如下显示  
 <div class="daima" style="background-color:#000000 ">
 <font color=#FFFFFF>
 Extracting...
@@ -54,5 +54,4 @@ Upgrade success!
 Upgrade success! 表示升级成功
 
 **验证方法：**
-
-重启客户端查看IP地址即可。
+重启无盘故障消失，无盘能正常获取IP地址即说明升级成功。
