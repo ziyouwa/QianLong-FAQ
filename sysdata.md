@@ -33,7 +33,7 @@ sh ./upper_to_lower.sh xxx
 ```
 
 #### 官网下载
-[linux wmanager补数据方法](Lwmamager.md)  
+[linux wmanager补数据方法](#!Lwmamager.md)  
 工具下载地址: http://www.qianlong.com.cn/soft/download_data.aspx  
 **<font color=#ff9900 size=2 >  ⚠ 官方只能补日线！当日k线17点更新</font>**
 
