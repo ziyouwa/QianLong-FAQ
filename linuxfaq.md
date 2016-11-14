@@ -240,7 +240,7 @@ reboot
 ![](image/14.jpg)
 
 ## Linux 4X或者转码机 按钮按不下去
-* 缺少 hktime.ini 文件
+* 缺少 hktime.ini 文件  
 /opt/qianlong/service/market/cfg/hktime.ini
 
 * root权限执行了转码机和其他程序

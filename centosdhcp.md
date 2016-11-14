@@ -22,7 +22,7 @@
 ```Bash
 cd /opt/
 tar -zxvf ql_fixed_dhcpd_20160930.tar.gz
-chmod -R 777 ql_fixed_dhcpd_20160930.sh
+chmod +x ql_fixed_dhcpd_20160930.sh
 sh ql_fixed_dhcpd_20160930.sh
 ```
 执行完命令后会如下显示  

@@ -34,21 +34,18 @@ CfgPath=y:/qianlong/syscfg/cfg/
 UserPath=y:/qianlong/
 ```
 **修改y为自己所映射的linux盘符**
-4. 打开WManager.exe→点击数据管理→安装生产→点击安装→等待安装完成。
-
+4. 打开WManager.exe→点击数据管理→安装生产→点击安装→等待安装完成。  
 ![](image/QQ20160920160940.png)
 
-5. **以上所有文件操作，操作完成均执行赋权命令**
-
+5. **Linux7.2以下版本需要赋权操作，7.2以上(包括7.2)的就不需要了。**
+赋权命令如下，需root用户权限执行  
 ```
-chmod -R 777 /opt/qianlong
-
-chown -R qianlong:qianlong /opt/qianlong
+chmod -R 777 /opt/qianlong  
+chown -R qianlong:qianlong /opt/qianlong  
 ```
 
 ## 删除日线方法
-操作方法同上
-
+操作方法同上  
 ![](image/QQ20160920161848.png)
 
 ![](image/QQ20160920162001.png)

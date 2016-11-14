@@ -76,7 +76,7 @@ unrar x *.rar
 8. 在"钱龙Linux控制台->L2DCD"处下拉框选"正常模式"，开启转码和服务平台。
 
 #### 龙讯F10官网下载
-**<font color=#ff9900 size=2 > 每周五更新 信龙官网 [xlinfo.cn](http://www.xlinfo.cn/)   首页>技术支持>数据下载</font>**
+**<font color=#ff9900 size=2 > 每周五更新  [信龙官网](http://www.xlinfo.cn/)   首页>技术支持>数据下载</font>**
 
 ----------
 
